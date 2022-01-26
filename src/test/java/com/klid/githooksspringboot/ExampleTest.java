@@ -1,7 +1,9 @@
 package com.klid.githooksspringboot;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * @author Ivan Kaptue
@@ -12,7 +14,12 @@ public class ExampleTest {
     public void test_addition() {
         var result = 6 + 7;
 
-        Assertions.assertEquals(15, result);
+        assertEquals(15, result);
+    }
+
+    @Test
+    public void test_helloWorld() {
+        assertTrue(true);
     }
 
 }
