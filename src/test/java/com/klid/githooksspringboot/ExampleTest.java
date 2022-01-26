@@ -14,7 +14,7 @@ public class ExampleTest {
     public void test_addition() {
         var result = 6 + 7;
 
-        assertEquals(15, result);
+        assertEquals(13, result);
     }
 
     @Test
