@@ -67,7 +67,7 @@
                     <!--                    <sourceDirectory>some/source/directory</sourceDirectory>-->
                     <!--                    <testSourceDirectory>some/test/directory</testSourceDirectory>-->
                     <verbose>true</verbose>
-<!--                    <filesNamePattern>.*\.java</filesNamePattern>-->
+                    <filesNamePattern>.*\.java</filesNamePattern>
                     <!--                    <additionalSourceDirectories>-->
                     <!--                        <param>some/dir</param>-->
                     <!--                        <param>some/other/dir</param>-->
