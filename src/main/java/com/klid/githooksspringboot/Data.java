@@ -9,7 +9,7 @@ public interface Data {
   List<Person> PERSONS = new ArrayList<>();
 
   static long generateId() {
-    Random random = new Random();
+    var random = new Random();
     return random.nextLong();
   }
 
