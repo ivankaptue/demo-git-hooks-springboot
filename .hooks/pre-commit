@@ -1,0 +1,11 @@
+#!/bin/sh
+
+./mvnw com.coveo:fmt-maven-plugin:check
+
+result=$?
+if [ $result != 0 ]; then
+    cat <<\EOF
+       Formatting failed (please format your code)
+EOF
+    exit 1
+fi
